@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 7507b2e2b69ac9f4fa28f74faa5a7b13
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 18301df7e851e224698f836bd0abc439, type: 3}
+  goExcel: {fileID: -6750239444755058063, guid: 7507b2e2b69ac9f4fa28f74faa5a7b13, type: 3}

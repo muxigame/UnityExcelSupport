@@ -82,7 +82,7 @@ namespace ExcelSupport.Editor{
             _root.Add(new Button {
                 text = "Revert",
                 clickable = new Clickable(() => {
-                    ImportAssets(GetAssetPaths());
+                    _goExcel = GoExcel.ReadExcel(Path.Combine(_assetExcel.excelPath,_assetExcel.excelName));
                     DrawTable(_goExcel[_itemString]);
                 })
             });
@@ -152,7 +152,7 @@ namespace ExcelSupport.Editor{
                         }
                     };
                     textField.RegisterValueChangedCallback(x => {
-                        Undo.RecordObject(_assetExcel, "textField");
+                        Undo.RecordObject(_goExcel, "textField");
                         cell.text = x.newValue;
                     });
                     line.Add(textField);
@@ -187,12 +187,6 @@ namespace ExcelSupport.Editor{
             serializedObject.SetIsDifferentCacheDirty();
             ApplyRevertGUI();
         }
-
-        private static void ImportAssets(IEnumerable<string> paths){
-            foreach (var path in paths) AssetDatabase.WriteImportSettingsIfDirty(path);
-            AssetDatabase.StartAssetEditing();
-            foreach (var path in paths) AssetDatabase.ImportAsset(path);
-            AssetDatabase.StopAssetEditing();
-        }
+        
     }
 }

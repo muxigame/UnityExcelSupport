@@ -136,6 +136,10 @@ namespace GalForUnity.ExcelTool{
             }
 
             public Cell GetCell(int col){ return cells[col]; }
+
+            public void Combine(Line line){
+                cells.AddRange(line.cells);
+            }
         }
 
         [Serializable]

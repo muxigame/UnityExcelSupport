@@ -69,12 +69,11 @@ namespace ExcelSupport.Editor{
             public GoExcel RemoveUnImport(GoExcel goExcel,GoExcel shallowClone){
                 goExcel.ShallowClone(shallowClone);
                 while (sheetImportSettings.Count < shallowClone.sheets.Count) sheetImportSettings.Add(new SheetImportSetting());
+                Init(shallowClone);
                 for (var sheetIndex = shallowClone.sheets.Count - 1; sheetIndex >= 0; sheetIndex--){
                     var unImportSetting = this[sheetIndex];
                     this[sheetIndex].sheetName = shallowClone.GetAllSheetName()[sheetIndex];
-                    if (unImportSetting.rowImportInfo == null) unImportSetting.rowImportInfo = Enumerable.Repeat(true, shallowClone[sheetIndex].rows.Count).ToList();
 
-                    if (unImportSetting.colImportInfo == null) unImportSetting.colImportInfo = Enumerable.Repeat(true, shallowClone[sheetIndex].rows.Max(x => x.cells.Count)).ToList();
                     if (!unImportSetting.sheetImportInfo){
                         shallowClone.sheets.RemoveAt(sheetIndex);
                         continue;
@@ -93,12 +92,10 @@ namespace ExcelSupport.Editor{
             }
             public GoExcel RemoveUnImport(GoExcel shallowClone){
                 while (sheetImportSettings.Count < shallowClone.sheets.Count) sheetImportSettings.Add(new SheetImportSetting());
+                Init(shallowClone);
                 for (var sheetIndex = shallowClone.sheets.Count - 1; sheetIndex >= 0; sheetIndex--){
                     var unImportSetting = this[sheetIndex];
                     this[sheetIndex].sheetName = shallowClone.GetAllSheetName()[sheetIndex];
-                    if (unImportSetting.rowImportInfo == null) unImportSetting.rowImportInfo = Enumerable.Repeat(true, shallowClone[sheetIndex].rows.Count).ToList();
-
-                    if (unImportSetting.colImportInfo == null) unImportSetting.colImportInfo = Enumerable.Repeat(true, shallowClone[sheetIndex].rows.Max(x => x.cells.Count)).ToList();
                     if (!unImportSetting.sheetImportInfo){
                         shallowClone.sheets.RemoveAt(sheetIndex);
                         continue;
@@ -116,16 +113,28 @@ namespace ExcelSupport.Editor{
                 return shallowClone;
             }
             public ExcelImportSetting Init(GoExcel goExcel){
-                if (this.sheetImportSettings != null && this.sheetImportSettings.Count != 0) return this;
-                this.sheetImportSettings=new List<SheetImportSetting>();
+                // if (this.sheetImportSettings != null && this.sheetImportSettings.Count == goExcel.sheets.Count) return this;
+                if(this.sheetImportSettings==null)this.sheetImportSettings=new List<SheetImportSetting>();
                 while (this.sheetImportSettings.Count < goExcel.sheets.Count) this.sheetImportSettings.Add(new ExcelImportSetting.SheetImportSetting());
                 for (var sheetIndex = 0; sheetIndex < goExcel.sheets.Count; sheetIndex++){
                     var unImportSetting = this[sheetIndex];
                     this[sheetIndex].sheetName = goExcel.GetAllSheetName()[sheetIndex];
                     unImportSetting.sheetImportInfo = true;
-                    if (unImportSetting.rowImportInfo == null) unImportSetting.rowImportInfo = Enumerable.Repeat(true, goExcel[sheetIndex].rows.Count).ToList();
-                    if (unImportSetting.colImportInfo == null) unImportSetting.colImportInfo = Enumerable.Repeat(true, goExcel[sheetIndex].rows.Max(x => x.cells.Count)).ToList();
-
+                    var rowsCount = goExcel[sheetIndex].rows.Count;
+                    if (unImportSetting.rowImportInfo == null) unImportSetting.rowImportInfo = Enumerable.Repeat(true, rowsCount).ToList();
+                    while (unImportSetting.rowImportInfo.Count <rowsCount){
+                        unImportSetting.rowImportInfo.Add(true);
+                    }
+                    while (unImportSetting.rowImportInfo.Count >rowsCount){
+                        unImportSetting.rowImportInfo.RemoveAt(unImportSetting.rowImportInfo.Count-1);
+                    }
+                    var rowCol = goExcel[sheetIndex].rows.Max(x => x.cells.Count);
+                    if (unImportSetting.colImportInfo == null) unImportSetting.colImportInfo = Enumerable.Repeat(true, rowCol).ToList();
+                    while(unImportSetting.colImportInfo.Count<rowCol) 
+                        unImportSetting.colImportInfo.Add(true);
+                    while (unImportSetting.colImportInfo.Count >rowCol){
+                        unImportSetting.colImportInfo.RemoveAt(unImportSetting.colImportInfo.Count-1);
+                    }
                 }
                 return this;
             }

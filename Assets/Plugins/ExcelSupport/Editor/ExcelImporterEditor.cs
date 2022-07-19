@@ -36,6 +36,7 @@ namespace ExcelSupport.Editor{
             _assetExcel = ((ExcelImporter) target).assetExcel;
             _unImportSettings = ImportSetting.instance.GetImportSetting(_assetExcel);
             if(!_goExcel) _goExcel = GoExcel.ReadExcel(Path.Combine(_assetExcel.excelPath,_assetExcel.excelName));
+            _unImportSettings.Init(_goExcel);
             _goExcel.UndoCallBack += DrawTable;
             _serializedProperty = serializedObject.FindProperty("assetExcel");
         }
@@ -56,7 +57,7 @@ namespace ExcelSupport.Editor{
 
         protected override void Apply(){
             _assetExcel = _unImportSettings.RemoveUnImport(_goExcel,_assetExcel);
-            GoExcel.WriteExcel(_goExcel);
+            // GoExcel.WriteExcel(_goExcel);
             ImportSetting.Save();
             base.Apply();
         }

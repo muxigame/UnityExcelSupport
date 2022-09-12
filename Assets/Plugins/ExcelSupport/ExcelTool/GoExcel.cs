@@ -152,6 +152,23 @@ namespace GalForUnity.ExcelTool{
             public int AsInt => int.TryParse(text, out var value) ? value : 0;
             public float AsFloat => float.TryParse(text, out var value) ? value : 0.0f;
             public double AsDouble => double.TryParse(text, out var value) ? value : 0.0d;
+            public int[] AsIntArray{
+                get{
+                    if(!text.StartsWith("[")||!text.EndsWith("]")) throw new ArgumentException();
+                    var strings = text.Split(",");
+                    int[] tempArray=new int[strings.Length];
+                    for (var i = 0; i < strings.Length; i++){
+                        if (i == 0) 
+                            tempArray[i] = int.Parse(strings[i].Replace("[", "").Replace("]",""));
+                        else if (i == strings.Length - 1)
+                            tempArray[i] = int.Parse(strings[i].Replace("]", ""));
+                        else
+                            tempArray[i] = int.Parse(strings[i]);
+                    }
+                    return tempArray;
+                }
+            }
+
             public byte[] AsByteArray => string.IsNullOrWhiteSpace(text) ? new byte[] { } : Encoding.Default.GetBytes(text);
 
             public override string ToString(){ return AsString; }

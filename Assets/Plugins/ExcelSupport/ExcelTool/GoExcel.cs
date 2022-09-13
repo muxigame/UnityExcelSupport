@@ -76,7 +76,7 @@ namespace GalForUnity.ExcelTool{
         public WriteState WriteNum(){
             try
             {
-                File.WriteAllText(Path.GetFileNameWithoutExtension(FileFullPath)+".num",JsonUtility.ToJson(this));
+                File.WriteAllText(Path.Combine(excelPath,Path.GetFileNameWithoutExtension(excelName) +".num"),JsonUtility.ToJson(this));
             }
             catch (Exception e)
             {
@@ -84,6 +84,28 @@ namespace GalForUnity.ExcelTool{
                 return WriteState.Failed;
             }
             return WriteState.Success;
+        }        
+        public static GoExcel ReadNum(string path,GoExcel goExcel){
+            try
+            {
+                JsonUtility.FromJsonOverwrite(File.ReadAllText(path),goExcel);
+                return goExcel;
+            }
+            catch (Exception e)
+            {
+                Debug.LogError(e);
+                return null;
+            }
+        }        
+        public void ReadNum(string path){
+            try
+            {
+                JsonUtility.FromJsonOverwrite(File.ReadAllText(path),this);
+            }
+            catch (Exception e)
+            {
+                Debug.LogError(e);
+            }
         }
 
         public Sheet GetSheet(string sheetName){ return Sheets[sheetName]; }

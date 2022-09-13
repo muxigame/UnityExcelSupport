@@ -69,6 +69,22 @@ namespace GalForUnity.ExcelTool{
             if (writeState == WriteState.Failed) Debug.LogError("save failed");
             return writeState;
         }
+        
+        public static WriteState WriteNum(GoExcel goExcel){
+            return goExcel.WriteNum();
+        }
+        public WriteState WriteNum(){
+            try
+            {
+                File.WriteAllText(Path.GetFileNameWithoutExtension(FileFullPath)+".num",JsonUtility.ToJson(this));
+            }
+            catch (Exception e)
+            {
+                Debug.LogError(e);
+                return WriteState.Failed;
+            }
+            return WriteState.Success;
+        }
 
         public Sheet GetSheet(string sheetName){ return Sheets[sheetName]; }
         public int GetSheetIndex(Sheet sheet){ return sheets.IndexOf(sheet); }

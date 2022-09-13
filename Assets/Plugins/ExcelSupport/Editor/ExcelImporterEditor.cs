@@ -87,6 +87,10 @@ namespace ExcelSupport.Editor{
                     DrawTable(_goExcel[_itemString]);
                 })
             });
+            _root.Add(new Button {
+                text = "导出num文件",
+                clickable = new Clickable(()=>_assetExcel.WriteNum())
+            });
             return _root;
         }
 

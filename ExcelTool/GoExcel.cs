@@ -82,7 +82,7 @@ namespace GalForUnity.ExcelTool{
                     goExcel.sheets = new List<Sheet> {
                         sheet
                     };
-                    string path = Path.Combine(Application.streamingAssetsPath,"Excels", Path.GetFileNameWithoutExtension(excelName) + ".num");
+                    string path = Path.Combine(Application.streamingAssetsPath,"Excels", sheet.sheetName + ".num");
                     File.WriteAllText(path,JsonUtility.ToJson(goExcel));
                 }
 #else

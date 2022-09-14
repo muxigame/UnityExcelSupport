@@ -1,6 +1,6 @@
 {
   "name": "com.muxigame.excel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "ExcelSupport",
   "description": "Enable your Unity to recognize Excel files.",
   "changelogUrl": "https://muxigame.com/help",

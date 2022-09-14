@@ -119,7 +119,6 @@ namespace ExcelSupport.Editor{
                 for (var sheetIndex = 0; sheetIndex < goExcel.sheets.Count; sheetIndex++){
                     var unImportSetting = this[sheetIndex];
                     this[sheetIndex].sheetName = goExcel.GetAllSheetName()[sheetIndex];
-                    unImportSetting.sheetImportInfo = true;
                     var rowsCount = goExcel[sheetIndex].rows.Count;
                     if (unImportSetting.rowImportInfo == null) unImportSetting.rowImportInfo = Enumerable.Repeat(true, rowsCount).ToList();
                     while (unImportSetting.rowImportInfo.Count <rowsCount){

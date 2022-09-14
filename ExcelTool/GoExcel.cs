@@ -79,7 +79,9 @@ namespace GalForUnity.ExcelTool{
 #if MUXIGAME
                 foreach (var sheet in this.sheets){
                     var goExcel = ScriptableObject.CreateInstance<GoExcel>();
-                    goExcel.sheets.Add(sheet);
+                    goExcel.sheets = new List<Sheet> {
+                        sheet
+                    };
                     string path = Path.Combine(Application.streamingAssetsPath,"Excels", Path.GetFileNameWithoutExtension(excelName) + ".num");
                     File.WriteAllText(path,JsonUtility.ToJson(goExcel));
                 }

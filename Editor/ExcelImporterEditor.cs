@@ -57,11 +57,13 @@ namespace ExcelSupport.Editor{
 
         protected override void Apply(){
             _assetExcel = _unImportSettings.RemoveUnImport(_goExcel,_assetExcel);
-            // GoExcel.WriteExcel(_goExcel);
             ImportSetting.Save();
             base.Apply();
         }
 
+        public void WriteOrigin(){
+            GoExcel.WriteExcel(_goExcel);
+        }
         public override VisualElement CreateInspectorGUI(){
             if (_scrollView == null) _scrollView = new ScrollView(ScrollViewMode.Horizontal);
             if (_root == null)  _root = new VisualElement {
@@ -78,7 +80,15 @@ namespace ExcelSupport.Editor{
 
             _root.Add(_scrollView);
             _root.Add(new Button {
-                text = "Apply", clickable = new Clickable(() => { ApplyAndImport(); })
+                text = "WriteExcel", clickable = new Clickable(() => {
+                    if (EditorUtility.DisplayDialog("Warning", "About to overwrite the source file, you will lose the table style", "Yes, I'm sure","cancel")){
+                        WriteOrigin();
+                        ApplyAndImport();
+                    }
+                })
+            });
+            _root.Add(new Button {
+                text = "ApplyConfig", clickable = new Clickable(ApplyAndImport)
             });
             _root.Add(new Button {
                 text = "Revert",
@@ -90,8 +100,7 @@ namespace ExcelSupport.Editor{
             _root.Add(new Button {
                 text = "导出num文件",
                 clickable = new Clickable(()=> {
-                    _assetExcel = _unImportSettings.RemoveUnImport(_goExcel,_assetExcel);
-                    ImportSetting.Save();
+                    Apply();
                     _assetExcel.WriteNum();
                 })
             });

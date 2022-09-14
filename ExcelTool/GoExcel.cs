@@ -97,6 +97,19 @@ namespace GalForUnity.ExcelTool{
             }
             return WriteState.Success;
         }        
+        public static GoExcel ReadNum(string path){
+            try
+            {
+                var goExcel = CreateInstance<GoExcel>();
+                JsonUtility.FromJsonOverwrite(File.ReadAllText(path),goExcel);
+                return goExcel;
+            }
+            catch (Exception e)
+            {
+                Debug.LogError(e);
+                return null;
+            }
+        }    
         public static GoExcel ReadNum(string path,GoExcel goExcel){
             try
             {
@@ -109,7 +122,7 @@ namespace GalForUnity.ExcelTool{
                 return null;
             }
         }        
-        public void ReadNum(string path){
+        public void ReadNumFile(string path){
             try
             {
                 JsonUtility.FromJsonOverwrite(File.ReadAllText(path),this);

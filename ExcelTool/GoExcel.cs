@@ -75,12 +75,18 @@ namespace GalForUnity.ExcelTool{
         }
         public WriteState WriteNum(){
             try{
+
 #if MUXIGAME
-                string path = Path.Combine(Application.streamingAssetsPath, Path.GetFileNameWithoutExtension(excelName) + ".num");
+                foreach (var sheet in this.sheets){
+                    var goExcel = ScriptableObject.CreateInstance<GoExcel>();
+                    goExcel.sheets.Add(sheet);
+                    string path = Path.Combine(Application.streamingAssetsPath,"Excels", Path.GetFileNameWithoutExtension(excelName) + ".num");
+                    File.WriteAllText(path,JsonUtility.ToJson(goExcel));
+                }
 #else
                 string path = Path.Combine(excelPath, Path.GetFileNameWithoutExtension(excelName) + ".num");
-#endif
                 File.WriteAllText(path,JsonUtility.ToJson(this));
+#endif
             }
             catch (Exception e)
             {

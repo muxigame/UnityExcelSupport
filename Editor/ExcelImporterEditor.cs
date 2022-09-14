@@ -89,7 +89,11 @@ namespace ExcelSupport.Editor{
             });
             _root.Add(new Button {
                 text = "导出num文件",
-                clickable = new Clickable(()=>_assetExcel.WriteNum())
+                clickable = new Clickable(()=> {
+                    _assetExcel = _unImportSettings.RemoveUnImport(_goExcel,_assetExcel);
+                    ImportSetting.Save();
+                    _assetExcel.WriteNum();
+                })
             });
             return _root;
         }

@@ -74,9 +74,13 @@ namespace GalForUnity.ExcelTool{
             return goExcel.WriteNum();
         }
         public WriteState WriteNum(){
-            try
-            {
-                File.WriteAllText(Path.Combine(excelPath,Path.GetFileNameWithoutExtension(excelName) +".num"),JsonUtility.ToJson(this));
+            try{
+#if MUXIGAME
+                string path = Path.Combine(Application.streamingAssetsPath, Path.GetFileNameWithoutExtension(excelName) + ".num");
+#else
+                string path = Path.Combine(excelPath, Path.GetFileNameWithoutExtension(excelName) + ".num");
+#endif
+                File.WriteAllText(path,JsonUtility.ToJson(this));
             }
             catch (Exception e)
             {
@@ -193,7 +197,7 @@ namespace GalForUnity.ExcelTool{
             public int[] AsIntArray{
                 get{
                     if(!text.StartsWith("[")||!text.EndsWith("]")) throw new ArgumentException();
-                    var strings = text.Split(",");
+                    var strings = text.Split(',');
                     int[] tempArray=new int[strings.Length];
                     for (var i = 0; i < strings.Length; i++){
                         if (i == 0) 

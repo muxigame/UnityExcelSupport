@@ -3,9 +3,7 @@
 //       CopyRight 2019-2022 © MUXI Game Studio 
 //       . All Rights Reserved 
 //
-//        FileName :  GoExcel.cs
-//
-//        Created by 半世癫(Roc) at 2022-05-24 00:38:25
+//        FileName :  GoExcel.cs  Created at 2022-05-24 00:38:25
 //
 //======================================================================
 
@@ -217,7 +215,15 @@ namespace GalForUnity.ExcelTool{
             public double AsDouble => double.TryParse(text, out var value) ? value : 0.0d;
             public int[] AsIntArray{
                 get{
-                    if(!text.StartsWith("[")||!text.EndsWith("]")) throw new ArgumentException();
+#if MUXIGAME
+                    var strings = text.Split('#');
+                    int[] tempArray=new int[strings.Length];
+                    for (var i = 0; i < strings.Length; i++){
+                        tempArray[i] = int.Parse(strings[i]);
+                    }
+                    return tempArray;
+#else
+                    if(!text.StartsWith("[") ||!text.EndsWith("]")) throw new ArgumentException();
                     var strings = text.Split(',');
                     int[] tempArray=new int[strings.Length];
                     for (var i = 0; i < strings.Length; i++){
@@ -228,7 +234,8 @@ namespace GalForUnity.ExcelTool{
                         else
                             tempArray[i] = int.Parse(strings[i]);
                     }
-                    return tempArray;
+                    return tempArray;   
+#endif
                 }
             }
 

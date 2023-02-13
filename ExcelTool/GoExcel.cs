@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using UnityEngine;
 
 namespace GalForUnity.ExcelTool{
@@ -55,11 +56,22 @@ namespace GalForUnity.ExcelTool{
             JsonUtility.FromJsonOverwrite(csStr, goExcel);
             return goExcel;
         }
-        public static void ReadExcel(string datasetPath,GoExcel obj){
+        public static async Task<GoExcel> ReadExcelAsync(string datasetPath){
+            return await Task.Run<GoExcel>(() => {
+                var csStr = GoExcelNativeMethod.ToCsStr(
+                    GoExcelNativeMethod.GetExcel(GoExcelNativeMethod.ToCStr(datasetPath)));
+                var goExcel = CreateInstance<GoExcel>();
+                JsonUtility.FromJsonOverwrite(csStr, goExcel);
+                return goExcel;
+            });
+        }
+
+        public static void ReadExcel(string datasetPath, GoExcel obj){
             var csStr = GoExcelNativeMethod.ToCsStr(
                 GoExcelNativeMethod.GetExcel(GoExcelNativeMethod.ToCStr(datasetPath)));
-            JsonUtility.FromJsonOverwrite(csStr,obj);
+            JsonUtility.FromJsonOverwrite(csStr, obj);
         }
+
         public static WriteState WriteExcel(GoExcel goExcel){
             var result = GoExcelNativeMethod.SetExcel(GoExcelNativeMethod.ToCStr(JsonUtility.ToJson(goExcel)));
 
@@ -101,6 +113,20 @@ namespace GalForUnity.ExcelTool{
                 var goExcel = CreateInstance<GoExcel>();
                 JsonUtility.FromJsonOverwrite(File.ReadAllText(path),goExcel);
                 return goExcel;
+            }
+            catch (Exception e)
+            {
+                Debug.LogError(e);
+                return null;
+            }
+        }   
+        public static async Task<GoExcel> ReadNumAsync(string path){
+            try{
+                return await Task.Run(() => {
+                    var goExcel = CreateInstance<GoExcel>();
+                    JsonUtility.FromJsonOverwrite(File.ReadAllText(path), goExcel);
+                    return goExcel;
+                });
             }
             catch (Exception e)
             {

@@ -57,13 +57,12 @@ namespace GalForUnity.ExcelTool{
             return goExcel;
         }
         public static async Task<GoExcel> ReadExcelAsync(string datasetPath){
-            return await Task.Run<GoExcel>(() => {
-                var csStr = GoExcelNativeMethod.ToCsStr(
-                    GoExcelNativeMethod.GetExcel(GoExcelNativeMethod.ToCStr(datasetPath)));
-                var goExcel = CreateInstance<GoExcel>();
-                JsonUtility.FromJsonOverwrite(csStr, goExcel);
-                return goExcel;
-            });
+            var csStr = GoExcelNativeMethod.ToCsStr(
+                GoExcelNativeMethod.GetExcel(GoExcelNativeMethod.ToCStr(datasetPath)));
+            var goExcel = CreateInstance<GoExcel>();
+            JsonUtility.FromJsonOverwrite(csStr, goExcel);
+            await Task.Yield();
+            return goExcel;
         }
 
         public static void ReadExcel(string datasetPath, GoExcel obj){
@@ -74,7 +73,6 @@ namespace GalForUnity.ExcelTool{
 
         public static WriteState WriteExcel(GoExcel goExcel){
             var result = GoExcelNativeMethod.SetExcel(GoExcelNativeMethod.ToCStr(JsonUtility.ToJson(goExcel)));
-
             var writeState = (WriteState) result;
             if (writeState == WriteState.Failed) Debug.LogError("save failed");
             return writeState;
@@ -122,11 +120,10 @@ namespace GalForUnity.ExcelTool{
         }   
         public static async Task<GoExcel> ReadNumAsync(string path){
             try{
-                return await Task.Run(() => {
-                    var goExcel = CreateInstance<GoExcel>();
-                    JsonUtility.FromJsonOverwrite(File.ReadAllText(path), goExcel);
-                    return goExcel;
-                });
+                var goExcel = CreateInstance<GoExcel>();
+                JsonUtility.FromJsonOverwrite(File.ReadAllText(path), goExcel);
+                await Task.Yield();
+                return goExcel;
             }
             catch (Exception e)
             {

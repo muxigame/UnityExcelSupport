@@ -83,12 +83,12 @@ namespace ExcelSupport.Editor{
                 text = "WriteExcel", clickable = new Clickable(() => {
                     if (EditorUtility.DisplayDialog("Warning", "About to overwrite the source file, you will lose the table style", "Yes, I'm sure","cancel")){
                         WriteOrigin();
-                        ApplyAndImport();
+                        SaveChanges();
                     }
                 })
             });
             _root.Add(new Button {
-                text = "ApplyConfig", clickable = new Clickable(ApplyAndImport)
+                text = "ApplyConfig", clickable = new Clickable(SaveChanges)
             });
             _root.Add(new Button {
                 text = "Revert",
@@ -98,10 +98,17 @@ namespace ExcelSupport.Editor{
                 })
             });
             _root.Add(new Button {
-                text = "导出num文件",
+                text = "Export Json file",
                 clickable = new Clickable(()=> {
                     Apply();
-                    _assetExcel.WriteNum();
+                    _assetExcel.WriteJson();
+                })
+            });
+            _root.Add(new Button {
+                text = "Export Csv file",
+                clickable = new Clickable(()=> {
+                    Apply();
+                    _assetExcel.WriteCsv();
                 })
             });
             return _root;

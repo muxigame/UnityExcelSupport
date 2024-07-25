@@ -1,0 +1,203 @@
+type,code,fcode,cityCode,number,isoCode,continent,continentCode,name,cname,icon,price,iconColor,bgColor,city,ccity,latitude,longitude,isNew,验证列
+nation,AD,AND,#N/A,20,ISO 3166-2:AD,#N/A,#N/A,Andorra,安道尔,flags/ad,1000,#FFFFFF,#D4D4D4,Andorra la Vella,安道尔,1.5218355,42.5063174,,0
+nation,AF,AFG,#N/A,4,ISO 3166-2:AF,Asia,1,Afghanistan,阿富汗,flags/af,1000,#FFFFFF,#D4D4D4,Kabul,喀布尔,69.207486,34.5553494,,1
+nation,AI,AIA,#N/A,660,ISO 3166-2:AI,#N/A,#N/A,Anguilla,安圭拉,flags/ai,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,AL,ALB,#N/A,8,ISO 3166-2:AL,Europe,2,Albania,阿尔巴尼亚,flags/al,1000,#FFFFFF,#D4D4D4,Tirana,地拉那,19.8186982,41.3275459,,1
+nation,AM,ARM,#N/A,51,ISO 3166-2:AM,Asia,1,Armenia,亚美尼亚,flags/am,1000,#FFFFFF,#D4D4D4,Yerevan,埃里温,44.515209,40.1872023,,1
+nation,AO,AGO,#N/A,24,ISO 3166-2:AO,Africa,3,Angola,安哥拉,flags/ao,1000,#FFFFFF,#D4D4D4,Luanda,罗安达,13.2301756,-8.8146556,,1
+nation,AQ,ATA,#N/A,10,ISO 3166-2:AQ,#N/A,#N/A,Antarctica,南极洲,flags/aq,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,AR,ARG,#N/A,32,ISO 3166-2:AR,America,4,Argentina,阿根廷,flags/ar,1000,#FFFFFF,#D4D4D4,Buenos Aires,布宜诺斯艾利斯,-58.3815591,-34.6036844,,1
+nation,AT,AUT,#N/A,40,ISO 3166-2:AT,Europe,2,Austria,奥地利,flags/at,1000,#FFFFFF,#D4D4D4,Vienna,维也纳,16.3718643,48.2081664,,1
+nation,AU,AUS,#N/A,36,ISO 3166-2:AU,Australia,5,Australia,澳大利亚,flags/au,1000,#FFFFFF,#D4D4D4,Canberra,堪培拉,149.1310324,-35.2801846,,1
+nation,AW,ABW,#N/A,533,ISO 3166-2:AW,#N/A,#N/A,Aruba,阿鲁巴,flags/aw,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,AX,ALA,#N/A,248,ISO 3166-2:AX,#N/A,#N/A,Ahvenanmaa,奥兰群岛,flags/ax,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,AZ,AZE,#N/A,31,ISO 3166-2:AZ,Asia,1,Azerbaijan,阿塞拜疆,flags/az,1000,#FFFFFF,#D4D4D4,Baku,巴库,49.8670924,40.4092617,,1
+nation,BB,BRB,#N/A,52,ISO 3166-2:BB,#N/A,#N/A,Barbados,巴巴多斯,flags/bb,1000,#FFFFFF,#D4D4D4,Bridgetown,布里奇敦,-59.6132388,13.0971177,,0
+nation,BD,BGD,#N/A,50,ISO 3166-2:BD,Asia,1,Bangladesh,孟加拉,flags/bd,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,1
+nation,BE,BEL,#N/A,56,ISO 3166-2:BE,Europe,2,Belgium,比利时,flags/be,1000,#FFFFFF,#D4D4D4,Brussels,布鲁塞尔,4.3571696,50.8476424,,1
+nation,BF,BFA,#N/A,854,ISO 3166-2:BF,#N/A,#N/A,Burkina,布基纳法索,flags/bf,1000,#FFFFFF,#D4D4D4,Ouagadougou,瓦加杜古,-1.5196603,12.3714277,,0
+nation,BG,BGR,#N/A,100,ISO 3166-2:BG,Europe,2,Bulgaria,保加利亚,flags/bg,1000,#FFFFFF,#D4D4D4,Sofia,索非亚,23.3218675,42.6977082,,1
+nation,BH,BHR,#N/A,48,ISO 3166-2:BH,#N/A,#N/A,Bahrain,巴林,flags/bh,1000,#FFFFFF,#D4D4D4,Manama,麦纳麦,50.5875935,26.2235305,,0
+nation,BI,BDI,#N/A,108,ISO 3166-2:BI,#N/A,#N/A,Burundi,布隆迪,flags/bi,1000,#FFFFFF,#D4D4D4,Bujumbura,布琼布拉,29.3598782,-3.361378,,0
+nation,BJ,BEN,#N/A,204,ISO 3166-2:BJ,#N/A,#N/A,Benin,贝宁,flags/bj,1000,#FFFFFF,#D4D4D4,Porto-Novo,波多诺伏,2.6203212,6.4786238,,0
+nation,BM,BMU,#N/A,60,ISO 3166-2:BM,#N/A,#N/A,Bermuda,百慕大,flags/bm,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,BN,BRN,#N/A,96,ISO 3166-2:BN,Asia,1,Brunei,文莱,flags/bn,1000,#FFFFFF,#D4D4D4,Bandar Seri Begawan,斯里巴加湾市,114.9419021,4.8923413,,1
+nation,BO,BOL,#N/A,68,ISO 3166-2:BO,#N/A,#N/A,Bolivia,玻利维亚,flags/bo,1000,#FFFFFF,#D4D4D4,Sucre,苏克雷,-65.2592128,-19.035345,,0
+nation,BR,BRA,#N/A,76,ISO 3166-2:BR,America,4,Brazil,巴西,flags/br,1000,#FFFFFF,#D4D4D4,Brasilia,巴西利亚,-47.8918874,-15.7975154,,1
+nation,BS,BHS,#N/A,44,ISO 3166-2:BS,#N/A,#N/A,Bahamas,巴哈马,flags/bs,1000,#FFFFFF,#D4D4D4,Nassau,拿骚,-77.3503609,25.0443312,,0
+nation,BT,BTN,#N/A,64,ISO 3166-2:BT,Asia,1,Bhutan,不丹,flags/bt,1000,#FFFFFF,#D4D4D4,Thimphu,廷布,89.6386108,27.471586,,1
+nation,BW,BWA,#N/A,72,ISO 3166-2:BW,Africa,3,Botswana,博茨瓦纳,flags/bw,1000,#FFFFFF,#D4D4D4,Gaborone,哈博罗内,25.9077037,-24.6580003,,1
+nation,BY,BLR,#N/A,112,ISO 3166-2:BY,Europe,2,Belarus,白俄罗斯,flags/by,1000,#FFFFFF,#D4D4D4,Minsk,明斯克,27.558972,53.9006011,,1
+nation,BZ,BLZ,#N/A,84,ISO 3166-2:BZ,Europe,2,Belize,伯利兹,flags/bz,1000,#FFFFFF,#D4D4D4,Belmopan,贝尔莫潘,-88.7590201,17.2510114,,1
+nation,CA,CAN,#N/A,124,ISO 3166-2:CA,America,4,Canada,加拿大,flags/ca,1000,#FFFFFF,#D4D4D4,Ottawa,渥太华,-75.6971931,45.4215296,,1
+nation,CH,CHE,#N/A,756,ISO 3166-2:CH,Europe,2,Switzerland,瑞士,flags/ch,1000,#FFFFFF,#D4D4D4,Bern,伯尔尼,7.4474468,46.9479739,,1
+nation,CL,CHL,#N/A,152,ISO 3166-2:CL,Europe,2,Chile,智利,flags/cl,1000,#FFFFFF,#D4D4D4,Santiago,圣地亚哥,-70.6692655,-33.4488897,,1
+nation,CM,CMR,#N/A,120,ISO 3166-2:CM,#N/A,#N/A,Cameroon,喀麦隆,flags/cm,1000,#FFFFFF,#D4D4D4,Yaounde,雅温得,11.5202292,3.8616853,,0
+nation,CO,COL,#N/A,170,ISO 3166-2:CO,America,4,Colombia,哥伦比亚,flags/co,1000,#FFFFFF,#D4D4D4,Bogota,波哥大,-74.072092,4.7109886,,1
+nation,CR,CRI,#N/A,188,ISO 3166-2:CR,#N/A,#N/A,Costa Rica,哥斯达黎加,flags/cr,1000,#FFFFFF,#D4D4D4,San Jose,圣何塞,-121.8852525,37.33874,,0
+nation,CU,CUB,#N/A,192,ISO 3166-2:CU,America,4,Cuba,古巴,flags/cu,1000,#FFFFFF,#D4D4D4,Havana,哈瓦那,-82.3665956,23.1135925,,1
+nation,CV,CPV,#N/A,132,ISO 3166-2:CV,#N/A,#N/A,Cape Verde,佛得角,flags/cv,1000,#FFFFFF,#D4D4D4,Praia,普拉亚,-23.5073437,14.919775,,0
+nation,CY,CYP,#N/A,196,ISO 3166-2:CY,#N/A,#N/A,Cyprus,塞浦路斯,flags/cy,1000,#FFFFFF,#D4D4D4,Nicosia,尼科西亚,33.3822764,35.1855659,,0
+nation,CZ,CZE,#N/A,203,ISO 3166-2:CZ,Europe,2,Czech,捷克,flags/cz,1000,#FFFFFF,#D4D4D4,Prague,布拉格,14.4378005,50.0755381,,1
+nation,DE,DEU,#N/A,276,ISO 3166-2:DE,Europe,2,Germany,德国,flags/de,1000,#FFFFFF,#D4D4D4,Berlin,柏林,13.404954,52.5200066,,1
+nation,DJ,DJI,#N/A,262,ISO 3166-2:DJ,#N/A,#N/A,Djibouti,吉布提,flags/dj,1000,#FFFFFF,#D4D4D4,Djibouti,吉布提,42.590275,11.825138,,0
+nation,DK,DNK,#N/A,208,ISO 3166-2:DK,Europe,2,Denmark,丹麦,flags/dk,1000,#FFFFFF,#D4D4D4,Copenhagen,哥本哈根,12.5683371,55.6760968,,1
+nation,DM,DMA,#N/A,212,ISO 3166-2:DM,#N/A,#N/A,Dominica,多米尼克,flags/dm,1000,#FFFFFF,#D4D4D4,Roseau,罗索,0,0,,0
+nation,DZ,DZA,#N/A,12,ISO 3166-2:DZ,Africa,3,Algeria,阿尔及利亚,flags/dz,1000,#FFFFFF,#D4D4D4,Algiers,阿尔及尔,3.0587561,36.753768,,1
+nation,EC,ECU,#N/A,218,ISO 3166-2:EC,America,4,Ecuador,厄瓜多尔,flags/ec,1000,#FFFFFF,#D4D4D4,Quito,基多,-78.4678382,-0.1806532,,1
+nation,EE,EST,#N/A,233,ISO 3166-2:EE,Europe,2,Estonia,爱沙尼亚,flags/ee,1000,#FFFFFF,#D4D4D4,Tallinn,塔林,24.7535746,59.4369608,,1
+nation,EG,EGY,#N/A,818,ISO 3166-2:EG,Africa,3,Egypt,埃及,flags/eg,1000,#FFFFFF,#D4D4D4,Cairo,开罗,31.2357116,30.0444196,,1
+nation,ER,ERI,#N/A,232,ISO 3166-2:ER,#N/A,#N/A,Eritrea,厄立特里亚,flags/er,1000,#FFFFFF,#D4D4D4,Asmara,阿斯马拉,38.9300394,15.3317304,,0
+nation,ES,ESP,#N/A,724,ISO 3166-2:ES,Europe,2,Spain,西班牙,flags/es,1000,#FFFFFF,#D4D4D4,Madrid,马德里,-3.7037902,40.4167754,,1
+nation,FI,FIN,#N/A,246,ISO 3166-2:FI,Europe,2,Finland,芬兰,flags/fi,1000,#FFFFFF,#D4D4D4,Helsinki,赫尔辛基,24.938379,60.1698557,,1
+nation,FJ,FJI,#N/A,242,ISO 3166-2:FJ,#N/A,#N/A,Fiji,斐济群岛,flags/fj,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,FO,FRO,#N/A,234,ISO 3166-2:FO,#N/A,#N/A,Faroe Islands,法罗群岛,flags/fo,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,FR,FRA,#N/A,250,ISO 3166-2:FR,Europe,2,France,法国,flags/fr,1000,#FFFFFF,#D4D4D4,Paris,巴黎,2.3522219,48.856614,,1
+nation,GA,GAB,#N/A,266,ISO 3166-2:GA,#N/A,#N/A,Gabon,加蓬,flags/ga,1000,#FFFFFF,#D4D4D4,Libreville,利伯维尔,9.4402833,0.4077972,,0
+nation,GD,GRD,#N/A,308,ISO 3166-2:GD,#N/A,#N/A,Grenada,格林纳达,flags/gd,1000,#FFFFFF,#D4D4D4,Saint George's,圣乔治,-61.7487996,12.0560975,,0
+nation,GE,GEO,#N/A,268,ISO 3166-2:GE,Asia,1,Georgia,格鲁吉亚,flags/ge,1000,#FFFFFF,#D4D4D4,T'bilisi,第比利斯,44.8015168,41.6938026,,1
+nation,GH,GHA,#N/A,288,ISO 3166-2:GH,#N/A,#N/A,Ghana,加纳,flags/gh,1000,#FFFFFF,#D4D4D4,Accra,阿克拉,-0.1974306,5.5592846,,0
+nation,GI,GIB,#N/A,292,ISO 3166-2:GI,Europe,2,Gibraltar,直布罗陀,flags/gi,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,1
+nation,GL,GRL,#N/A,304,ISO 3166-2:GL,America,4,Greenland,格陵兰,flags/gl,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,1
+nation,GN,GIN,#N/A,324,ISO 3166-2:GN,#N/A,#N/A,Guinea,几内亚,flags/gn,1000,#FFFFFF,#D4D4D4,Conakry,科纳克里,-13.7119312,9.5090945,,0
+nation,GP,GLP,#N/A,312,ISO 3166-2:GP,#N/A,#N/A,Guadeloupe,瓜德罗普,flags/gp,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,GR,GRC,#N/A,300,ISO 3166-2:GR,Europe,2,Greece,希腊,flags/gr,1000,#FFFFFF,#D4D4D4,Athens,雅典,23.7275388,37.9838096,,1
+nation,GT,GTM,#N/A,320,ISO 3166-2:GT,America,4,Guatemala,危地马拉,flags/gt,1000,#FFFFFF,#D4D4D4,Guatemala,危地马拉,-90.230759,15.783471,,1
+nation,GU,GUM,#N/A,316,ISO 3166-2:GU,#N/A,#N/A,Guam,关岛,flags/gu,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,GW,GNB,#N/A,624,ISO 3166-2:GW,#N/A,#N/A,Guinea-Bissau,几内亚比绍,flags/gw,1000,#FFFFFF,#D4D4D4,Bissau,比绍,-15.5843227,11.8632196,,0
+nation,GY,GUY,#N/A,328,ISO 3166-2:GY,#N/A,#N/A,Guyana,圭亚那,flags/gy,1000,#FFFFFF,#D4D4D4,Georgetown,乔治敦,100.3287506,5.4141307,,0
+nation,HN,HND,#N/A,340,ISO 3166-2:HN,#N/A,#N/A,Honduras,洪都拉斯,flags/hn,1000,#FFFFFF,#D4D4D4,Tegucigalpa,特古西加尔巴,-87.1715002,14.065049,,0
+nation,HR,HRV,#N/A,191,ISO 3166-2:HR,Europe,2,Croatia,克罗地亚,flags/hr,1000,#FFFFFF,#D4D4D4,Zagreb,萨格勒布,15.981919,45.8150108,,1
+nation,HT,HTI,#N/A,332,ISO 3166-2:HT,Europe,2,Haiti,海地,flags/ht,1000,#FFFFFF,#D4D4D4,Port-au-Prince,太子港,-72.3074326,18.594395,,1
+nation,HU,HUN,#N/A,348,ISO 3166-2:HU,Europe,2,Hungary,匈牙利,flags/hu,1000,#FFFFFF,#D4D4D4,Budapest,布达佩斯,19.040235,47.497912,,1
+nation,ID,IDN,#N/A,360,ISO 3166-2:ID,Asia,1,Indonesia,印尼,flags/id,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,1
+nation,IE,IRL,#N/A,372,ISO 3166-2:IE,Europe,2,Ireland,爱尔兰,flags/ie,1000,#FFFFFF,#D4D4D4,Dublin,都柏林,-6.2603097,53.3498053,,1
+nation,IN,IND,#N/A,356,ISO 3166-2:IN,Asia,1,India,印度,flags/in,1000,#FFFFFF,#D4D4D4,New Delhi,新德里,77.2090212,28.6139391,,1
+nation,IQ,IRQ,#N/A,368,ISO 3166-2:IQ,Asia,1,Iraq,伊拉克,flags/iq,1000,#FFFFFF,#D4D4D4,Baghdad,巴格达,44.3660671,33.315241,,1
+nation,IR,IRN,#N/A,364,ISO 3166-2:IR,Asia,1,Iran,伊朗,flags/ir,1000,#FFFFFF,#D4D4D4,Tehran,德黑兰,51.3346954,35.7218583,,1
+nation,IS,ISL,#N/A,352,ISO 3166-2:IS,Europe,2,Iceland,冰岛,flags/is,1000,#FFFFFF,#D4D4D4,Reykjavik,雷克雅未克,-21.9407552,64.1469868,,1
+nation,IT,ITA,#N/A,380,ISO 3166-2:IT,Europe,2,Italy,意大利,flags/it,1000,#FFFFFF,#D4D4D4,Rome,罗马,12.4963655,41.9027835,,1
+nation,JE,JEY,#N/A,832,ISO 3166-2:JE,#N/A,#N/A,Jersey,泽西岛,flags/je,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,JM,JAM,#N/A,388,ISO 3166-2:JM,#N/A,#N/A,Jamaica,牙买加,flags/jm,1000,#FFFFFF,#D4D4D4,Kingston,金斯敦,0,0,,0
+nation,JO,JOR,#N/A,400,ISO 3166-2:JO,Asia,1,Jordan,约旦,flags/jo,1000,#FFFFFF,#D4D4D4,Amman,安曼,35.910635,31.9539494,,1
+nation,JP,JPN,#N/A,392,ISO 3166-2:JP,Asia,1,Japan,日本,flags/jp,1000,#FFFFFF,#D4D4D4,Tokyo,东京,139.650027,35.6764225,,1
+nation,KH,KHM,#N/A,116,ISO 3166-2:KH,Asia,1,Cambodia,柬埔寨,flags/kh,1000,#FFFFFF,#D4D4D4,Phnom Penh,金边,104.9282099,11.5563738,,1
+nation,KI,KIR,#N/A,296,ISO 3166-2:KI,#N/A,#N/A,Kiribati,基里巴斯,flags/ki,1000,#FFFFFF,#D4D4D4,Tarawa,塔拉瓦,172.9716617,1.4518171,,0
+nation,KM,COM,#N/A,174,ISO 3166-2:KM,#N/A,#N/A,Comoros,科摩罗,flags/km,1000,#FFFFFF,#D4D4D4,Moroni,莫罗尼,43.2517012,-11.7061223,,0
+nation,KW,KWT,#N/A,414,ISO 3166-2:KW,Europe,2,Kuwait,科威特,flags/kw,1000,#FFFFFF,#D4D4D4,Kuwait,科威特城,47.481766,29.31166,,1
+nation,LB,LBN,#N/A,422,ISO 3166-2:LB,Asia,1,Lebanon,黎巴嫩,flags/lb,1000,#FFFFFF,#D4D4D4,Beirut,贝鲁特,35.5017767,33.8937913,,1
+nation,LI,LIE,#N/A,438,ISO 3166-2:LI,#N/A,#N/A,Liechtenstein,列支敦士登,flags/li,1000,#FFFFFF,#D4D4D4,Vaduz,瓦杜兹,9.5209277,47.1410303,,0
+nation,LK,LKA,#N/A,144,ISO 3166-2:LK,Asia,1,Sri Lanka,斯里兰卡,flags/lk,1000,#FFFFFF,#D4D4D4,Colombo,科伦坡,79.861243,6.9270786,,1
+nation,LR,LBR,#N/A,430,ISO 3166-2:LR,Africa,3,Liberia,利比里亚,flags/lr,1000,#FFFFFF,#D4D4D4,Monrovia,蒙罗维亚,-10.8073698,6.3156068,,1
+nation,LS,LSO,#N/A,426,ISO 3166-2:LS,#N/A,#N/A,Lesotho,莱索托,flags/ls,1000,#FFFFFF,#D4D4D4,Maseru,马塞卢,27.4869229,-29.3150767,,0
+nation,LT,LTU,#N/A,440,ISO 3166-2:LT,Europe,2,Lithuania,立陶宛,flags/lt,1000,#FFFFFF,#D4D4D4,Vilnius,维尔纽斯,25.2796514,54.6871555,,1
+nation,LU,LUX,#N/A,442,ISO 3166-2:LU,Europe,2,Luxembourg,卢森堡,flags/lu,1000,#FFFFFF,#D4D4D4,Luxembourg,卢森堡,6.129583,49.815273,,1
+nation,LV,LVA,#N/A,428,ISO 3166-2:LV,Europe,2,Latvia,拉脱维亚,flags/lv,1000,#FFFFFF,#D4D4D4,Riga,里加,24.1056221,56.9676941,,1
+nation,LY,LBY,#N/A,434,ISO 3166-2:LY,Africa,3,Libya,利比亚,flags/ly,1000,#FFFFFF,#D4D4D4,Tripoli,的黎波里,13.187186,32.8877109,,1
+nation,MA,MAR,#N/A,504,ISO 3166-2:MA,Africa,3,Morocco,摩洛哥,flags/ma,1000,#FFFFFF,#D4D4D4,Rabat,拉巴特,-6.8538748,34.0083637,,1
+nation,MC,MCO,#N/A,492,ISO 3166-2:MC,#N/A,#N/A,Monaco,摩纳哥,flags/mc,1000,#FFFFFF,#D4D4D4,Monaco,摩纳哥,7.4246158,43.7384176,,0
+nation,MD,MDA,#N/A,498,ISO 3166-2:MD,#N/A,#N/A,Moldova,摩尔多瓦,flags/md,1000,#FFFFFF,#D4D4D4,Chisinau,基希讷乌,28.8638103,47.0104529,,0
+nation,ME,MNE,#N/A,499,ISO 3166-2:ME,Europe,2,Montenegro,黑山,flags/me,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,1
+nation,ML,MLI,#N/A,466,ISO 3166-2:ML,Africa,3,Mali,马里,flags/ml,1000,#FFFFFF,#D4D4D4,Bamako,巴马科,-8.0028892,12.6392316,,1
+nation,MM,MMR,#N/A,104,ISO 3166-2:MM,Asia,1,Myanmar,缅甸,flags/mm,1000,#FFFFFF,#D4D4D4,Yangon,仰光,96.173526,16.840939,,1
+nation,MQ,MTQ,#N/A,474,ISO 3166-2:MQ,#N/A,#N/A,Martinique,马提尼克,flags/mq,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,MR,MRT,#N/A,478,ISO 3166-2:MR,#N/A,#N/A,Mauritania,毛里塔尼亚,flags/mr,1000,#FFFFFF,#D4D4D4,Nouakchott,努瓦克肖特,-15.9582372,18.0735299,,0
+nation,MS,MSR,#N/A,500,ISO 3166-2:MS,#N/A,#N/A,Montserrat,蒙塞拉特岛,flags/ms,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,MT,MLT,#N/A,470,ISO 3166-2:MT,Europe,2,Malta,马耳他,flags/mt,1000,#FFFFFF,#D4D4D4,Bamako,瓦莱塔,-8.0028892,12.6392316,,1
+nation,MV,MDV,#N/A,462,ISO 3166-2:MV,Asia,1,Maldives,马尔代夫,flags/mv,1000,#FFFFFF,#D4D4D4,Male,马累,73.5093474,4.1754959,,1
+nation,MW,MWI,#N/A,454,ISO 3166-2:MW,#N/A,#N/A,Malawi,马拉维,flags/mw,1000,#FFFFFF,#D4D4D4,Lilongwe,利隆圭,33.76806,-13.9865252,,0
+nation,MX,MEX,#N/A,484,ISO 3166-2:MX,America,4,Mexico,墨西哥,flags/mx,1000,#FFFFFF,#D4D4D4,Mexico City,墨西哥城,-99.133208,19.4326077,,1
+nation,MY,MYS,#N/A,458,ISO 3166-2:MY,Asia,1,Malaysia,马来西亚,flags/my,1000,#FFFFFF,#D4D4D4,Kuala Lumpur,吉隆坡,101.6944619,3.1499222,,1
+nation,NA,NAM,#N/A,516,ISO 3166-2:NA,#N/A,#N/A,Namibia,纳米比亚,flags/na,1000,#FFFFFF,#D4D4D4,Windhoek,温得和克,17.0842147,-22.5649344,,0
+nation,NE,NER,#N/A,562,ISO 3166-2:NE,#N/A,#N/A,Niger,尼日尔,flags/ne,1000,#FFFFFF,#D4D4D4,Niamey,尼亚美,2.1253854,13.5115963,,0
+nation,NG,NGA,#N/A,566,ISO 3166-2:NG,Africa,3,Nigeria,尼日利亚,flags/ng,1000,#FFFFFF,#D4D4D4,Abuja,阿布贾,7.4985259,9.0562646,,1
+nation,NI,NIC,#N/A,558,ISO 3166-2:NI,America,4,Nicaragua,尼加拉瓜,flags/ni,1000,#FFFFFF,#D4D4D4,Managua,马那瓜,-86.2361744,12.1149926,,1
+nation,NL,NLD,#N/A,528,ISO 3166-2:NL,Europe,2,Netherlands,荷兰,flags/nl,1000,#FFFFFF,#D4D4D4,Amsterdam,阿姆斯特丹,4.9041389,52.3675734,,1
+nation,NO,NOR,#N/A,578,ISO 3166-2:NO,Europe,2,Norway,挪威,flags/no,1000,#FFFFFF,#D4D4D4,Oslo,奥斯路,10.7522454,59.9138688,,1
+nation,NP,NPL,#N/A,524,ISO 3166-2:NP,Asia,1,Nepal,尼泊尔,flags/np,1000,#FFFFFF,#D4D4D4,Kathmandu,加德满都,85.3239605,27.7172453,,1
+nation,NR,NRU,#N/A,520,ISO 3166-2:NR,#N/A,#N/A,Nauru,瑙鲁,flags/nr,1000,#FFFFFF,#D4D4D4,Yaren District,亚伦,166.9156781,-0.5455672,,0
+nation,OM,OMN,#N/A,512,ISO 3166-2:OM,#N/A,#N/A,Oman,阿曼,flags/om,1000,#FFFFFF,#D4D4D4,Muscat,马斯喀特,58.3828717,23.5880307,,0
+nation,PA,PAN,#N/A,591,ISO 3166-2:PA,America,4,Panama,巴拿马,flags/pa,1000,#FFFFFF,#D4D4D4,Panama,巴拿马城,-80.782127,8.537981,,1
+nation,PE,PER,#N/A,604,ISO 3166-2:PE,America,4,Peru,秘鲁,flags/pe,1000,#FFFFFF,#D4D4D4,Lima,利马,-77.042754,-12.0463731,,1
+nation,PH,PHL,#N/A,608,ISO 3166-2:PH,Asia,1,Philippines,菲律宾,flags/ph,1000,#FFFFFF,#D4D4D4,Manila,马尼拉,120.9842195,14.5995124,,1
+nation,PK,PAK,#N/A,586,ISO 3166-2:PK,Asia,1,Pakistan,巴基斯坦,flags/pk,1000,#FFFFFF,#D4D4D4,Islamabad,伊斯兰堡,73.0478848,33.6844202,,1
+nation,PL,POL,#N/A,616,ISO 3166-2:PL,Europe,2,Poland,波兰,flags/pl,1000,#FFFFFF,#D4D4D4,Warsaw,华沙,21.0122287,52.2296756,,1
+nation,PR,PRI,#N/A,630,ISO 3166-2:PR,#N/A,#N/A,Puerto Rico,波多黎各,flags/pr,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,PW,PLW,#N/A,585,ISO 3166-2:PW,#N/A,#N/A,Palau,帕劳,flags/pw,1000,#FFFFFF,#D4D4D4,Koror,科罗尔,134.4771596,7.3410628,,0
+nation,PY,PRY,#N/A,600,ISO 3166-2:PY,#N/A,#N/A,Paraguay,巴拉圭,flags/py,1000,#FFFFFF,#D4D4D4,Asuncion,亚松森,-57.575926,-25.2637399,,0
+nation,QA,QAT,#N/A,634,ISO 3166-2:QA,#N/A,#N/A,Qatar,卡塔尔,flags/qa,1000,#FFFFFF,#D4D4D4,Doha,多哈,51.5310398,25.2854473,,0
+nation,RE,REU,#N/A,638,ISO 3166-2:RE,#N/A,#N/A,Réunion,留尼汪,flags/re,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,RO,ROU,#N/A,642,ISO 3166-2:RO,Europe,2,Romania,罗马尼亚,flags/ro,1000,#FFFFFF,#D4D4D4,Bucharest,布加勒斯特,26.1025384,44.4267674,,1
+nation,RS,SRB,#N/A,688,ISO 3166-2:RS,Europe,2,Serbia,塞尔维亚,flags/rs,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,1
+nation,RU,RUS,#N/A,643,ISO 3166-2:RU,Europe,2,Russian,俄罗斯,flags/ru,1000,#FFFFFF,#D4D4D4,Moscow,莫斯科,37.6173,55.755826,,1
+nation,RW,RWA,#N/A,646,ISO 3166-2:RW,#N/A,#N/A,Rwanda,卢旺达,flags/rw,1000,#FFFFFF,#D4D4D4,Kigali,基加利,30.0618851,-1.9440727,,0
+nation,SC,SYC,#N/A,690,ISO 3166-2:SC,#N/A,#N/A,Seychelles,塞舌尔,flags/sc,1000,#FFFFFF,#D4D4D4,Victoria,维多利亚,143.3906074,-36.9847807,,0
+nation,SD,SDN,#N/A,729,ISO 3166-2:SD,Africa,3,Sudan,苏丹,flags/sd,1000,#FFFFFF,#D4D4D4,Khartoum,喀土穆,32.535587,15.597431,,1
+nation,SE,SWE,#N/A,752,ISO 3166-2:SE,Europe,2,Sweden,瑞典,flags/se,1000,#FFFFFF,#D4D4D4,Stockholm,斯德哥尔摩,18.0685808,59.3293235,,1
+nation,SG,SGP,#N/A,702,ISO 3166-2:SG,Asia,1,Singapore,新加坡,flags/sg,1000,#FFFFFF,#D4D4D4,Singapore,新加坡,103.819836,1.352083,,1
+nation,SI,SVN,#N/A,705,ISO 3166-2:SI,Europe,2,Slovenia,斯洛文尼亚,flags/si,1000,#FFFFFF,#D4D4D4,Ljubljana,卢布尔雅那,14.5057515,46.0569465,,1
+nation,SK,SVK,#N/A,703,ISO 3166-2:SK,Europe,2,Slovakia,斯洛伐克,flags/sk,1000,#FFFFFF,#D4D4D4,Bratislava,布拉提斯拉发,17.1077477,48.1485965,,1
+nation,SL,SLE,#N/A,694,ISO 3166-2:SL,#N/A,#N/A,Sierra Leone,塞拉利昂,flags/sl,1000,#FFFFFF,#D4D4D4,Freetown,弗里敦,-13.2354918,8.4870803,,0
+nation,SM,SMR,#N/A,674,ISO 3166-2:SM,#N/A,#N/A,San Marino,圣马力诺,flags/sm,1000,#FFFFFF,#D4D4D4,San Marino,圣马力诺,12.457777,43.94236,,0
+nation,SN,SEN,#N/A,686,ISO 3166-2:SN,#N/A,#N/A,Senegal,塞内加尔,flags/sn,1000,#FFFFFF,#D4D4D4,Dakar,达喀尔,-17.4676861,14.716677,,0
+nation,SO,SOM,#N/A,706,ISO 3166-2:SO,Africa,3,Somalia,索马里,flags/so,1000,#FFFFFF,#D4D4D4,Mogadishu,摩加迪沙,45.3379067,2.037148,,1
+nation,SR,SUR,#N/A,740,ISO 3166-2:SR,America,4,Suriname,苏里南,flags/sr,1000,#FFFFFF,#D4D4D4,aramaribo,帕拉马里博,-55.2038278,5.8520355,,1
+nation,SS,SSD,#N/A,728,ISO 3166-2:SS,Africa,3,South Sudan,南苏丹,flags/ss,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,1
+nation,SV,SLV,#N/A,222,ISO 3166-2:SV,#N/A,#N/A,El Salvador,萨尔瓦多,flags/sv,1000,#FFFFFF,#D4D4D4,San Salvador,圣萨尔瓦多,-89.2181911,13.6929403,,0
+nation,SY,SYR,#N/A,760,ISO 3166-2:SY,Asia,1,Syria,叙利亚,flags/sy,1000,#FFFFFF,#D4D4D4,Damascus,大马士革,36.2765279,33.5138073,,1
+nation,SZ,SWZ,#N/A,748,ISO 3166-2:SZ,#N/A,#N/A,Swaziland,斯威士兰,flags/sz,1000,#FFFFFF,#D4D4D4,Mbabane,姆巴巴内,31.1441558,-26.3263561,,0
+nation,td,TCD,#N/A,148,ISO 3166-2:td,#N/A,#N/A,Chad,乍得,flags/td,1000,#FFFFFF,#D4D4D4,N'Djamena,恩贾梅纳,15.0502875,12.1191352,,0
+nation,TG,TGO,#N/A,768,ISO 3166-2:TG,#N/A,#N/A,Togo,多哥,flags/tg,1000,#FFFFFF,#D4D4D4,Lome,洛美,1.2196502,6.1295577,,0
+nation,TH,THA,#N/A,764,ISO 3166-2:TH,Asia,1,Thailand,泰国,flags/th,1000,#FFFFFF,#D4D4D4,Bangkok,曼谷,100.5017651,13.7563309,,1
+nation,TK,TKL,#N/A,772,ISO 3166-2:TK,#N/A,#N/A,Tokelau,托克劳,flags/tk,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,TN,TUN,#N/A,788,ISO 3166-2:TN,Africa,3,Tunisia,突尼斯,flags/tn,1000,#FFFFFF,#D4D4D4,Tunis,突尼斯,10.1815316,36.8064948,,1
+nation,TO,TON,#N/A,776,ISO 3166-2:TO,#N/A,#N/A,Tonga,汤加,flags/to,1000,#FFFFFF,#D4D4D4,Nuku'alofa,努库阿洛法,-175.2004858,-21.1343065,,0
+nation,TR,TUR,#N/A,792,ISO 3166-2:TR,Asia,1,Turkey,土耳其,flags/tr,1000,#FFFFFF,#D4D4D4,Ankara,安卡拉,32.8597419,39.9333635,,1
+nation,TV,TUV,#N/A,798,ISO 3166-2:TV,#N/A,#N/A,Tuvalu,图瓦卢,flags/tv,1000,#FFFFFF,#D4D4D4,Funafuti,富纳富提,179.1961926,-8.5211471,,0
+nation,TZ,TZA,#N/A,834,ISO 3166-2:TZ,Africa,3,Tanzania,坦桑尼亚,flags/tz,1000,#FFFFFF,#D4D4D4,Dodoma,多多马,35.746877,-6.1811245,,1
+nation,UA,UKR,#N/A,804,ISO 3166-2:UA,Europe,2,Ukraine,乌克兰,flags/ua,1000,#FFFFFF,#D4D4D4,Kiev,基辅,30.5245025,50.4503596,,1
+nation,UG,UGA,#N/A,800,ISO 3166-2:UG,#N/A,#N/A,Uganda,乌干达,flags/ug,1000,#FFFFFF,#D4D4D4,Kampala,坎帕拉,32.5816313,0.3151692,,0
+nation,UY,URY,#N/A,858,ISO 3166-2:UY,America,4,Uruguay,乌拉圭,flags/uy,1000,#FFFFFF,#D4D4D4,Montevide,蒙得维的亚,-56.1851147,-34.9055016,,1
+nation,VE,VEN,#N/A,862,ISO 3166-2:VE,America,4,Venezuela,委内瑞拉,flags/ve,1000,#FFFFFF,#D4D4D4,Caracas,加拉加斯,-66.9036063,10.4805937,,1
+nation,VN,VNM,#N/A,704,ISO 3166-2:VN,Asia,1,Vietnam,越南,flags/vn,1000,#FFFFFF,#D4D4D4,Hanoi,河内,105.8341598,21.0277644,,1
+nation,WS,WSM,#N/A,882,ISO 3166-2:WS,#N/A,#N/A,Samoa,萨摩亚,flags/ws,1000,#FFFFFF,#D4D4D4,Apia,阿皮亚,-171.7689086,-13.831609,,0
+nation,YE,YEM,#N/A,887,ISO 3166-2:YE,Asia,1,Yemen,也门,flags/ye,1000,#FFFFFF,#D4D4D4,Sanaa,萨那,44.2064003,15.3545381,,1
+nation,YT,MYT,#N/A,175,ISO 3166-2:YT,#N/A,#N/A,Mayotte,马约特,flags/yt,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,ZA,ZAF,#N/A,710,ISO 3166-2:ZA,Africa,3,South Africa,南非,flags/za,1000,#FFFFFF,#D4D4D4,Cape Town,比勒陀利亚,18.4240553,-33.9248685,,1
+nation,ZM,ZMB,#N/A,894,ISO 3166-2:ZM,Africa,3,Zambia,赞比亚,flags/zm,1000,#FFFFFF,#D4D4D4,Lusaka,卢萨卡,28.2773267,-15.4154677,,1
+nation,ZW,ZWE,#N/A,716,ISO 3166-2:ZW,Africa,3,Zimbabwe,津巴布韦,flags/zw,1000,#FFFFFF,#D4D4D4,Harare,哈拉雷,31.0503723,-17.8262928,,1
+nation,MZ,MOZ,#N/A,508,ISO 3166-2:MZ,#N/A,#N/A,Mozambique,莫桑比克,flags/mz,1000,#FFFFFF,#D4D4D4,Maputo,马普托,32.5731746,-25.969248,,0
+nation,GG,GGY,#N/A,831,ISO 3166-2:GG,#N/A,#N/A,Guernsey,根西岛,flags/gg,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,GM,GMB,#N/A,270,ISO 3166-2:GM,Africa,3,Gambia,冈比亚,flags/gm,1000,#FFFFFF,#D4D4D4,Banjul,班珠尔,-16.5753186,13.454375,,1
+nation,ET,ETH,#N/A,231,ISO 3166-2:ET,Africa,3,Ethiopia,埃塞俄比亚,flags/et,1000,#FFFFFF,#D4D4D4,Addis Ababa,亚的斯亚贝巴,38.7524635,9.0191936,,1
+nation,VU,VUT,#N/A,548,ISO 3166-2:VU,#N/A,#N/A,Vanuatu,瓦努阿图,flags/vu,1000,#FFFFFF,#D4D4D4,Port-Vila,维拉港,168.3173027,-17.742979,,0
+nation,NU,NIU,#N/A,570,ISO 3166-2:NU,#N/A,#N/A,Niue,纽埃,flags/nu,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,CK,COK,#N/A,184,ISO 3166-2:CK,#N/A,#N/A,Cook Islands,库克群岛,flags/ck,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,0
+nation,GB,GBR,#N/A,826,ISO 3166-2:GB,Europe,2,United Kingdom,英国,flags/gb,1000,#FFFFFF,#D4D4D4,London,伦敦,-0.1275862,51.5072178,,1
+nation,NZ,NZL,#N/A,554,ISO 3166-2:NZ,Australia,5,New Zealand,新西兰,flags/nz,1000,#FFFFFF,#D4D4D4,Wellington,惠灵顿,174.7787463,-41.2923814,,1
+nation,SA,SAU,#N/A,682,ISO 3166-2:SA,Asia,1,Saudi Arabia,沙特阿拉伯,flags/sa,1000,#FFFFFF,#D4D4D4,Riyadh,利雅得,46.6752957,24.7135517,,1
+nation,LA,LAO,#N/A,418,ISO 3166-2:LA,Asia,1,Laos,老挝,flags/la,1000,#FFFFFF,#D4D4D4,Vientiane,万象,102.6331035,17.9757058,,1
+nation,KP,PRK,#N/A,408,ISO 3166-2:KP,Asia,1,North Korea,朝鲜,flags/kp,1000,#FFFFFF,#D4D4D4,Pyongyang,平壤,125.7625241,39.0392193,,1
+nation,KR,KOR,#N/A,410,ISO 3166-2:KR,Asia,1,South Korea,韩国,flags/kr,1000,#FFFFFF,#D4D4D4,Seoul,首尔,126.9917937,37.5518911,,1
+nation,PT,PRT,#N/A,620,ISO 3166-2:PT,Europe,2,Portugal,葡萄牙,flags/pt,1000,#FFFFFF,#D4D4D4,Lisbon,里斯本,-9.1393366,38.7222524,,1
+nation,KG,KGZ,#N/A,417,ISO 3166-2:KG,Asia,1,Kyrgyzstan,吉尔吉斯斯坦,flags/kg,1000,#FFFFFF,#D4D4D4,Bishkek,比什凯克,74.5697617,42.8746212,,1
+nation,KZ,KAZ,#N/A,398,ISO 3166-2:KZ,Asia,1,Kazakhstan,哈萨克斯坦,flags/kz,1000,#FFFFFF,#D4D4D4,Astana,阿斯塔纳,71.4272222,51.1655126,,1
+nation,TJ,TJK,#N/A,762,ISO 3166-2:TJ,Asia,1,Tajikistan,塔吉克斯坦,flags/tj,1000,#FFFFFF,#D4D4D4,Dushanbe,杜尚别,68.7870384,38.5597722,,1
+nation,TM,TKM,#N/A,795,ISO 3166-2:TM,Asia,1,Turkmenistan,土库曼斯坦,flags/tm,1000,#FFFFFF,#D4D4D4,Ashgabat,阿什哈巴德,58.3260629,37.9600766,,1
+nation,UZ,UZB,#N/A,860,ISO 3166-2:UZ,Asia,1,Uzbekistan,乌兹别克斯坦,flags/uz,1000,#FFFFFF,#D4D4D4,#N/A,#N/A,#N/A,#N/A,,1
+nation,LC,LCA,#N/A,662,ISO 3166-2:LC,America,4,St. Lucia,圣卢西亚,flags/lc,1000,#FFFFFF,#D4D4D4,Castries,卡斯特里,-60.9897239,14.0110158,,1
+nation,MU,MUS,#N/A,480,ISO 3166-2:MU,Africa,3,Mauritius,毛里求斯,flags/mu,1000,#FFFFFF,#D4D4D4,Port Louis,路易港,57.5012222,-20.1608912,,1
+nation,CI,CIV,#N/A,384,ISO 3166-2:CI,Africa,3,Coate d'Ivoire,科特迪瓦,flags/ci,1000,#FFFFFF,#D4D4D4,Yamoussoukro,亚穆苏克罗,-5.2743629,6.8162741,,1
+nation,KE,KEN,#N/A,404,ISO 3166-2:KE,Africa,3,Kenya,肯尼亚,flags/ke,1000,#FFFFFF,#D4D4D4,Nairobi,内罗华,36.8219462,-1.2920659,,1
+nation,MN,MNG,#N/A,496,ISO 3166-2:MN,Asia,1,Mongolia,蒙古,flags/mn,1000,#FFFFFF,#D4D4D4,Elggydggmgj,乌兰巴托,106.9155007,47.9220509,1,1
+nation,CN,CHN,#N/A,156,ISO 3166-2:CN,Asia,1,China,中国,flags/cn,1000,#FFFFFF,#D4D4D4,Hefei,合肥,117.22901,31.8205699,1,1
+nation,CN,CHN,#N/A,156,ISO 3166-2:CN,Asia,1,China,中国,flags/cn,1000,#FFFFFF,#D4D4D4,Changsha,长沙,112.93886,28.2277799,1,1
+nation,CN,CHN,#N/A,156,ISO 3166-2:CN,Asia,1,China,中国,flags/cn,1000,#FFFFFF,#D4D4D4,Beijing,北京,116.407395,39.904211,1,1
+nation,CN,CHN,HKC,156,ISO 3166-2:HK,Asia,1,China,中国,flags/cn,1000,#FFFFFF,#D4D4D4,Hongkongcity,香港市,22.265215,114.122341,1,1
+nation,US,USA,#N/A,840,ISO 3166-2:US,America,4,United States,美国,flags/us,1000,#FFFFFF,#D4D4D4,Washington,华盛顿,-77.0368707,38.9071923,1,1
+nation,US,USA,NYC,840,ISO 3166-2:NY,America,4,United States,美国,flags/ny,1000,#FFFFFF,#D4D4D4,Newyorkcity,紐約市,42.6511674,73.754968,1,1
+840,IB,IBC,IBC,840,ISO 3166-2:IB,Asia,1,Turkey,土耳其,flags/ib,1000,#FFFFFF,#D4D4D4,Istanbulcity,伊斯坦布爾市,28.9783589,41.0082376,1,1
+840,AE,UAE,UAE,840,ISO 3166-2:AE,Asia,1,United Arab Emirates,阿拉伯聯合大公國,flags/ae,1000,#FFFFFF,#D4D4D4,Abudhabi,阿佈達比,54.3773438,24.453884,1,1
+nation,SN,SNC,SNC,840,ISO 3166-2:SN,Australia,5,Australia,澳大利亚,flags/sn,1000,#FFFFFF,#D4D4D4,Sydneycity,雪梨市,151.2092955,-33.8688197,1,1
+nation,ZC,ZCC,ZCC,840,ISO 3166-2:ZC,Europe,2,Switzerland,瑞士,flags/ZC,1000,#FFFFFF,#D4D4D4,Zurichcity,蘇黎士市,8.541694,47.3768866,1,1
+nation,JH,JHC,JHC,840,ISO 3166-2:JH,Africa,3,Johannesburg,約翰尼斯堡,flags/jh,1000,#FFFFFF,#D4D4D4,Johannesburgcity,約翰尼斯堡市,28.0337185,-26.205647,1,1

@@ -78,10 +78,10 @@ namespace GalForUnity.ExcelTool{
             return writeState;
         }
         
-        public static WriteState WriteNum(GoExcel goExcel){
-            return goExcel.WriteNum();
+        public static WriteState WriteJson(GoExcel goExcel){
+            return goExcel.WriteJson();
         }
-        public WriteState WriteNum(){
+        public WriteState WriteJson(){
             try{
 
 #if MUXIGAME
@@ -94,7 +94,7 @@ namespace GalForUnity.ExcelTool{
                     File.WriteAllText(path,JsonUtility.ToJson(goExcel));
                 }
 #else
-                string path = Path.Combine(excelPath, Path.GetFileNameWithoutExtension(excelName) + ".num");
+                string path = Path.Combine("./", Path.GetFileNameWithoutExtension(excelName) + ".json");
                 File.WriteAllText(path,JsonUtility.ToJson(this));
 #endif
             }
@@ -104,7 +104,37 @@ namespace GalForUnity.ExcelTool{
                 return WriteState.Failed;
             }
             return WriteState.Success;
-        }        
+        }
+
+        public WriteState WriteCsv()
+        {
+            try
+            {
+                foreach (var sheet in this.sheets)
+                {
+                    string file = Path.Combine("./", excelPath, Path.GetFileNameWithoutExtension(excelName), sheet.sheetName + ".csv");
+                    var path = Path.GetDirectoryName(file);
+                    if (!Directory.Exists(path)) Directory.CreateDirectory(path);
+                    var stream = File.Create(file);
+                    var fileStream = new StreamWriter(stream);
+                    foreach (var sheetRow in sheet.rows)
+                    {
+                        fileStream.WriteLine(string.Join(",", sheetRow.cells));
+                    }
+
+                    fileStream.Close();
+                }
+
+            }
+            catch (Exception e)
+            {
+                Debug.LogError(e);
+                return WriteState.Failed;
+            }
+
+            return WriteState.Success;
+        }
+
         public static GoExcel ReadNum(string path){
             try
             {
